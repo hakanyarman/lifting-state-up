@@ -2,7 +2,7 @@ interface buttonProps {
     buttonText: string,
     count: number,
     handleClick: () => void,
-    buttonStyle: {backgroarkundColor: string, display: string, margin: string }
+    buttonStyle: {backgroundColor: string, display: string, margin: string }
 }
 
 export default function Button({ buttonText, count, handleClick, buttonStyle }: buttonProps) {
